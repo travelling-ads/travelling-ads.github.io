@@ -168,17 +168,28 @@ Home sections
 Spacer
 ============================= */
 
-#spacer1{	
+#spacer1,
+#spacer1 h4{	
 	/*
   background-image: url(../img/spacer/1.jpg);
   */
   background-color: #529abb;
+  color: #fff;
 }
-#spacer2{	
+#spacer1 .row:first-child {
+  margin-bottom: 60px;
+}
+
+#spacer2,
+#spacer2 h4{	
   /*
 	background-image: url(../img/spacer/2.jpg);
   */
   background-color: #529abb;
+  color: #fff;
+}
+#spacer2 .row:first-child {
+  margin-bottom: 60px;
 }
 
 
